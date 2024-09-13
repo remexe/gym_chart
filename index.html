@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="logo.png" alt="Gym Logo" class="logo">
+    </div>
+
+    <h1>Gym Timing Schedule</h1>
+
+    <div class="buttons">
+        <button onclick="filterSchedule('men')">Men's Days</button>
+        <button onclick="filterSchedule('women')">Women's Days</button>
+        <button onclick="filterSchedule('all')">Show All</button>
+    </div>
+
+    <table id="gym-schedule">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="men">
+                <td>Monday</td>
+                <td>6 AM - 8 AM</td>
+                <td>Men</td>
+            </tr>
+            <tr class="women">
+                <td>Tuesday</td>
+                <td>8 AM - 10 AM</td>
+                <td>Women</td>
+            </tr>
+            <tr class="men">
+                <td>Wednesday</td>
+                <td>6 AM - 8 AM</td>
+                <td>Men</td>
+            </tr>
+            <tr class="women">
+                <td>Thursday</td>
+                <td>8 AM - 10 AM</td>
+                <td>Women</td>
+            </tr>
+            <tr class="men">
+                <td>Friday</td>
+                <td>6 AM - 8 AM</td>
+                <td>Men</td>
+            </tr>
+            <tr class="women">
+                <td>Saturday</td>
+                <td>8 AM - 10 AM</td>
+                <td>Women</td>
+            </tr>
+            <tr class="men">
+                <td>Sunday</td>
+                <td>6 AM - 8 AM</td>
+                <td>Men</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
